@@ -1,0 +1,71 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	background-color: (255, 0, 100)
+}
+
+h1 {
+	font-family: 'Shadows Into Light Two', cursive;
+	color: blue;
+}
+
+h3{
+	font-family: 'Shadows Into Light Two', cursive;
+	color: blue;
+}
+
+aside{
+	display: flex;
+	flex-direction: colomn;
+	flex-basis: 50%;
+	flex: 1;
+
+}
+
+.title-head {
+	text-align: center;
+	background-color: #fbaea1;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+.doublecolumn{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 2;
+}
+
+.c1 {
+	background-color: #bfb7b5;
+	height: 100px;
+
+}
+
+.c2 {
+	background-color: #ffffff;
+	height: 100px;
+
+header{
+	text-align: center;
+	background-colour: black;
+	color: white;
+	padding: 10px;
+}
+
+footer{
+	text-align: center;
+	font-sizeL 18px;
+}
